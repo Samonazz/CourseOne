@@ -1,0 +1,59 @@
+body {
+background-image: url('Shaman.jpg');
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+height: 170vh;
+margin: 0;
+}
+
+h1 {
+    color: rgb(196, 10, 10);
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #717a91; /* bakgrundsfärg */
+}
+
+.meny {
+    list-style-type: none; /* Tar bort punktlistan */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Gör att listan visas horisontellt */
+}
+
+.meny li {
+    margin: 0; /* Tar bort marginaler */
+}
+
+.meny a {
+    display: block; /* Gör att hela området är klickbart */
+    color: white; /* Textfärg */
+    padding: 14px 20px; /* Inre marginaler */
+    text-decoration: none; /* Tar bort understrykning */
+}
+
+.meny a:hover {
+    background-color: #ffffff; /* Bakgrundsfärg vid hover */
+}
+
+h2 {
+    color: rgb(228, 16, 16);
+}
+
+h3 { 
+    color: rgb(9, 233, 39);
+}
